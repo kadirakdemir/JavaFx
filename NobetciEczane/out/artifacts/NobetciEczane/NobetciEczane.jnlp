@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="NobetciEczane.jnlp">
+  <information>
+    <title>NobetciEczane</title>
+    <vendor>Unknown</vendor>
+    <description>NobetciEczane</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Library\mssql-jdbc-7.0.0.jre8.jar" size="1166240" download="eager" />
+    <jar href="Library\org.apache.commons.io.jar" size="83613" download="eager" />
+    <jar href="NobetciEczane.jar" size="1774784" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="application.Main"  name="NobetciEczane" />
+  <update check="background"/>
+</jnlp>
